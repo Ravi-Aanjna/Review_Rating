@@ -1,0 +1,102 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: purple;
+}
+signup.css
+
+Custom styles for the form container
+.signup-form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin: 20px;
+  }
+  
+  Custom styles for the form headings
+  .signup-form-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  Custom styles for the form fields and labels
+  .signup-form-container div {
+    margin-bottom: 10px;
+  }
+  
+  .signup-form-container label {
+    font-weight: bold;
+  }
+  
+  .signup-form-container input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  Custom styles for the submit button
+  .signup-form-container button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   */
+  
+  *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient( #c5a0ed,#9483e3 ) ;
+    overflow: hidden;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 45px;
+}
+.form-class{
+  background-color: white;
+  height: 500px;
+  width: 450px;
+  border-radius: 8px;
+  border: none;
+  color: #9483e3;
+  text-align: center;
+  /* margin-left: 50px; */
+}
+.all_input{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* padding: 10px; */
+    /* height: 10px; */
+    /* width: 10px; */
+}
+.left-box{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+.star-img{
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 130px;
+  top: 1px;
+}
+.circle-img{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  right: 140px;
+  top: 1px;
+}
